@@ -1,0 +1,232 @@
+/* Main style */
+body {
+  font-family: "proxima-nova", "Lato", "ubuntu", "Helvetica Neue", Arial, verdana, sans-serif;
+  font-size: 18px;
+  text-align: left;
+  background-color: #ffffff;
+  color: #333;
+  max-width: 50em;
+  margin: auto;
+}
+
+html {
+  background-color: #DEDEDE;
+}
+
+
+header {
+  margin: 0em;
+  padding: 0em;
+  color: #eee;
+  background-color: #333;
+}
+
+article {
+  margin: auto;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+/* For potrait pictures */
+.face {
+  border-radius: 50%;
+  max-width: 12em;
+  display: inline-block;
+  margin: 2em;
+}
+
+
+
+/* Heading margins */
+h1 {
+  font-family: "Open Sans", "proxima-nova", "Lato", "ubuntu", "Helvetica Neue", Arial, verdana, sans-serif;
+  padding-top: 1em;
+  /*text-transform: uppercase;*/
+}
+
+h2, h3 {
+  margin-top: 2em;
+  font-weight: bold;
+}
+
+h1, h2, h3 {
+  /*font-weight: bold;*/
+}
+
+/* unvisited link */
+a:link {
+    color: steelblue;
+}
+
+/* visited link */
+a:visited {
+    color: coral;
+}
+
+/* selected link */
+a:active {
+    color: forestgreen;
+}
+
+
+
+/* For time */
+time {
+  color: coral;
+}
+
+
+
+/* Navigation bar */
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: inline-block;
+}
+
+nav > ul > li {
+  float: left;
+}
+
+nav > ul > li > a {
+  display: block;
+  background-color: #333;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+  background-color: steelblue;
+  color: #ffffff;
+  border-radius: 0.2em; 
+}
+
+
+
+/* For calendar icons */
+
+time.icon
+{
+  font-size: 0.75em; /* change icon size */
+  display: block;
+  position: relative;
+  width: 7em;
+  height: 7em;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 0.2em;
+  border-color: #333;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+time.icon *
+{
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+
+time.icon strong
+{
+  position: absolute;
+  top: 0;
+  padding: 0.4em 0;
+  color: #333;
+  background-color: lightcoral; /*#ff0000*/;
+  border-bottom: 0.1em; /*#990000*/;
+  /*box-shadow: 0 2px 0 #fd9f1b #ff0000;*/
+}
+
+time.icon em
+{
+  position: absolute;
+  bottom: 0.3em;
+  color: coral;
+}
+
+time.icon span
+{
+  font-size: 2.8em;
+  letter-spacing: -0.05em;
+  padding-top: 0.8em;
+  color: #2f2f2f;
+}
+
+td.newsdate {
+  margin: 2em;
+}
+
+td.newsitem {
+  margin: 2em;
+  padding: 2em;
+}
+
+
+header{
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  margin-top: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-top-style: solid;
+  border-top-width: 3px;
+  color: #eee;
+  background-color: #333;
+}
+
+
+
+/*Return to top*/
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
