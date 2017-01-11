@@ -46,7 +46,8 @@ div:last-of-type {
 
 div:nth-of-type(even) {
   /*background: #e0e0e0;*/
-  background: lightgoldenrodyellow;
+  /*background: lightgoldenrodyellow;*/
+  background: #FDF3E7;
 }
 
 /* For potrait pictures */
@@ -54,7 +55,7 @@ div:nth-of-type(even) {
   border-radius: 50%;
   max-width: 12em;
   display: inline-block;
-  margin: 2em;
+  margin: 1em;
 }
 
 
