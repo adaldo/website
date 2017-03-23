@@ -98,14 +98,6 @@ a:active {
 }
 
 
-
-/* For time */
-time {
-  color: coral;
-}
-
-
-
 /* Navigation bar */
 nav > ul {
   list-style-type: none;
@@ -136,67 +128,7 @@ nav > ul > li > a:hover {
 a.btn {
 }
 
-/* For calendar icons */
 
-time.icon
-{
-  font-size: 0.75em; /* change icon size */
-  display: block;
-  position: relative;
-  width: 7em;
-  height: 7em;
-  background-color: #ffffff;
-  border-style: solid;
-  border-width: 0.2em;
-  border-color: #333;
-  border-radius: 1em;
-  overflow: hidden;
-}
-
-time.icon *
-{
-  display: block;
-  width: 100%;
-  font-size: 1em;
-  font-weight: bold;
-  font-style: normal;
-  text-align: center;
-}
-
-time.icon strong
-{
-  position: absolute;
-  top: 0;
-  padding: 0.4em 0;
-  color: #333;
-  background-color: lightcoral; /*#ff0000*/;
-  border-bottom: 0.1em; /*#990000*/;
-  /*box-shadow: 0 2px 0 #fd9f1b #ff0000;*/
-}
-
-time.icon em
-{
-  position: absolute;
-  bottom: 0.3em;
-  color: coral;
-}
-
-time.icon span
-{
-  font-size: 2.8em;
-  letter-spacing: -0.05em;
-  padding-top: 0.8em;
-  color: #2f2f2f;
-}
-
-td.newsdate {
-  margin: 2em;
-}
-
-td.newsitem {
-  margin: 2em;
-  padding: 2em;
-}
 
 /* Footer */
 footer {
@@ -253,4 +185,19 @@ header > a > i {
 #return-to-top:hover i {
     color: #fff;
     top: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 1rem;
+}
+
+td, th {
+    text-align: left;
+    padding: 1rem;
+}
+
+th {
+  text-align: center;
 }

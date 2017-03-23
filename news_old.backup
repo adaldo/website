@@ -1,0 +1,105 @@
+<table class="newstable">
+
+  <tr>
+    <td class="newsdate">
+      <time datetime="2017-02-01" class="icon">
+        <em></em>
+        <strong>Feb</strong>
+        <span>1</span>
+      </time>
+   </td>
+   <td class="newsitem">The <a href="https://www.kth.se/ees/forskning/strategiska-forskningsomraden/intelligenta-transportsystem/smart-mobility-lab/projects/ac-project-course">video from our 2016 Project Course</a> is up on the SML website. Check it out!</td>
+  </tr>
+
+  <<tr>
+    <td class="newsdate">
+      <time datetime="2013-12-20" class="icon">
+        <em></em>
+        <strong>Dec</strong>
+        <span>20</span>
+      </time>
+    </td>
+    <td class="newsitem">I have gifted myself a 0.3 version of this website.</td>
+  </tr>
+
+  <tr>
+    <td class="newsdate">
+      <time datetime="2013-12-5" class="icon">
+        <em></em>
+        <strong>Dec</strong>
+        <span>5</span>
+      </time>
+    </td>
+    <td class="newsitem">I have released <a href="https://github.com/adaldo/geomtwo"><code>geomtwo</code></a>: a tiny catkin package to provide standard 2D geometry messages in ROS.</td>
+  </tr>
+
+</table>
+
+
+
+/* For calendar icons */
+
+/* For time */
+time {
+  color: coral;
+}
+
+time.icon
+{
+  font-size: 0.75em; /* change icon size */
+  display: block;
+  position: relative;
+  width: 7em;
+  height: 7em;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 0.2em;
+  border-color: #333;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+time.icon *
+{
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+
+time.icon strong
+{
+  position: absolute;
+  top: 0;
+  padding: 0.4em 0;
+  color: #333;
+  background-color: lightcoral; /*#ff0000*/;
+  border-bottom: 0.1em; /*#990000*/;
+  /*box-shadow: 0 2px 0 #fd9f1b #ff0000;*/
+}
+
+time.icon em
+{
+  position: absolute;
+  bottom: 0.3em;
+  color: coral;
+}
+
+time.icon span
+{
+  font-size: 2.8em;
+  letter-spacing: -0.05em;
+  padding-top: 0.8em;
+  color: #2f2f2f;
+}
+
+td.newsdate {
+  margin: 2em;
+}
+
+td.newsitem {
+  margin: 2em;
+  padding: 2em;
+}
