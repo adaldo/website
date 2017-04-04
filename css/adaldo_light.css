@@ -46,7 +46,8 @@ div:last-of-type {
 
 div:nth-of-type(even) {
   /*background: #e0e0e0;*/
-  background: lightgoldenrodyellow;
+  /*background: lightgoldenrodyellow;*/
+  background: LightYellow;
   /*background: #FDF3E7;*/
 }
 
@@ -89,7 +90,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: coral;
+    color: Seagreen;
 }
 
 /* selected link */
