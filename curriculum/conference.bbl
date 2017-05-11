@@ -1,0 +1,31 @@
+\begin{thebibliography}{1}
+
+\bibitem{adaldo2014ieeecdc}
+Adaldo, Alderisio, Liuzza, Dimarogonas, di~Bernardo, and Johansson.
+\newblock {Event-Triggered Pinning Control of Complex Networks with Switching
+  Topologies}.
+\newblock In {\em IEEE Conference on Decision and Control}, 2014.
+
+\bibitem{adaldo2016ieeecdc}
+Adaldo, Alderisio, Liuzza, Dimarogonas, di~Bernardo, and Johansson.
+\newblock {Multi-Agent Trajectory Tracking with Event-Triggered Cloud Access}.
+\newblock In {\em IEEE Conference on Decision and Control}, 2016.
+
+\bibitem{adaldo2017ifac}
+Adaldo, Dimarogonas, and Johansson.
+\newblock {Hybrid coverage and inspection control for anisotropic mobile sensor
+  teams}.
+\newblock In {\em IFAC World Congress}, 2017, to appear.
+
+\bibitem{adaldo2015ecc}
+Adaldo, Liuzza, Dimarogonas, and Johansson.
+\newblock {Control of Multi-Agent Systems with Event-Triggered Cloud Access}.
+\newblock In {\em European Control Conference}, 2015.
+
+\bibitem{wei2017ieeeicca}
+Wei, Zhang, Adaldo, and Johansson.
+\newblock Finite-time attitude synchronization with a discontinuous protocol.
+\newblock In {\em IEEE International Conference on Control and Automation
+  (ICCA)}, 2017, to appear.
+
+\end{thebibliography}

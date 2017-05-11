@@ -24,9 +24,13 @@
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 %\usepackage{natbib}
-\usepackage{filecontents}
-\usepackage{bibentry}
-
+\usepackage{multibib}
+\newcites{journal}{Journal Papers}
+\newcites{conference}{Conference Papers}
+\newcites{book}{Book Chapters}
+\newcites{thesis}{Theses}
+\newcites{subjournal}{Submitted Journal Papers}
+\newcites{subconference}{Submitted Conference Papers}
 
 \newcommand{\kalle}{\href{http://people.kth.se/~kallej}{Karl H. Johansson}}
 \newcommand{\dimos}{\href{http://people.kth.se/~dimos}{Dimos V. Dimarogonas}}
@@ -65,10 +69,16 @@
 %            content
 %----------------------------------------------------------------------------------
 
-\bibliographystyle{IEEEtran}
-\nobibliography*
 
 \begin{document}
+
+\nocitejournal{adaldo2015ieeecones}
+\nociteconference{wei2017ieeeicca,adaldo2017ifac,adaldo2016ieeecdc,adaldo2015ecc,adaldo2014ieeecdc}
+\nocitebook{adaldo2017alesund}
+\nocitethesis{adaldo2016licentiate}
+\nocitesubjournal{wei2017ieeetac,adaldo2017ieeecones}
+\nocitesubconference{boccia2017ieeecdc,adaldo2017iros}
+
 %\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
@@ -89,7 +99,7 @@
 \cvitem{T.A.}{\emph{Hybrid and Embedded Control Systems}, KTH, 2017, with \dimos}
 \cvitem{T.A.}{\emph{Automatic Control, Project Course} KTH, 2016, with \jonas}
 \cvitem{T.A.}{\emph{Automatic Control, General Course}, KTH, 2015--2016, with \henrik}
-\cvitem{Supervisor}{Six MSc Thesis and one undergraduate summer project to date.}
+\cvitem{Supervisor}{Seven MSc Thesis and one undergraduate summer project to date.}
 
 % \section{Publications}
 % I have authored one journal paper, four conference papers, and one book chapter to date.
@@ -180,63 +190,26 @@ My papers are reachable through my webpage \url{\adaldoweb}.
 
 \section{Publications}
 
-\textbf{Journal Papers}
+\bibliographystylejournal{plain}
+\bibliographyjournal{adaldo}
 
-\vspace{3mm}
-\bibentry{adaldo2015ieeecones}
+\bibliographystylesubjournal{plain}
+\bibliographysubjournal{adaldo}
 
-\vspace{3mm}
-\textbf{Conference Papers}
+\bibliographystyleconference{plain}
+\bibliographyconference{adaldo}
 
-\vspace{3mm}
-\bibentry{adaldo2014ieeecdc}
+\bibliographystylesubconference{plain}
+\bibliographysubconference{adaldo}
 
-\vspace{3mm}
-\bibentry{adaldo2015ecc}
+\bibliographystylebook{plain}
+\bibliographybook{adaldo}
 
-\vspace{3mm}
-\bibentry{adaldo2016ieeecdc}
-
-\vspace{3mm}
-\bibentry{adaldo2017ifac}
-
-\vspace{3mm}
-\bibentry{wei2017ieeeicca}
-
-\vspace{3mm}
-\textbf{Thesis}
-
-\vspace{3mm}
-\bibentry{adaldo2016licentiate}
-
-\vspace{3mm}
-\textbf{Book Chapters}
-
-\vspace{3mm}
-\bibentry{adaldo2017alesund}
+\bibliographystylethesis{plain}
+\bibliographythesis{adaldo}
 
 
-
-
-
-\section{Under Review}
-
-\textbf{Journal Papers}
-
-\vspace{3mm}
-\bibentry{adaldo2017ieeecones}
-
-\vspace{3mm}
-\textbf{Conference Papers}
-
-\vspace{3mm}
-\bibentry{adaldo2017iros}
-
-\vspace{3mm}
-\bibentry{boccia2017ieeecdc}
-
-
-\nobibliography{adaldo}
+%\nobibliography{adaldo}
 % 'publications' is the name of a BibTeX file
 %
 % % Publications from a BibTeX file using the multibib package
