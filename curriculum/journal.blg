@@ -3,33 +3,32 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: journal.aux
 The style file: unsrt.bst
 Database file #1: adaldo.bib
-Warning--empty year in wei2017ieeetac
 You've used 3 entries,
             1791 wiz_defined-function locations,
-            457 strings with 4083 characters,
-and the built_in function-call counts, 592 in all, are:
-= -- 35
+            458 strings with 4075 characters,
+and the built_in function-call counts, 591 in all, are:
+= -- 36
 > -- 54
 < -- 0
 + -- 19
 - -- 16
-* -- 42
-:= -- 119
+* -- 40
+:= -- 120
 add.period$ -- 9
 call.type$ -- 3
 change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 4
+cite$ -- 3
 duplicate$ -- 24
 empty$ -- 43
 format.name$ -- 16
-if$ -- 116
+if$ -- 117
 int.to.chr$ -- 0
 int.to.str$ -- 3
 missing$ -- 3
 newline$ -- 18
 num.names$ -- 3
-pop$ -- 10
+pop$ -- 9
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
@@ -41,8 +40,7 @@ text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
+warning$ -- 0
 while$ -- 3
 width$ -- 4
-write$ -- 31
-(There was 1 warning)
+write$ -- 32

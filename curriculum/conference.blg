@@ -3,46 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: conference.aux
 The style file: unsrt.bst
 Database file #1: adaldo.bib
-Warning--empty booktitle in adaldo2018ecc
 You've used 8 entries,
             1791 wiz_defined-function locations,
-            476 strings with 4818 characters,
-and the built_in function-call counts, 1717 in all, are:
-= -- 95
+            476 strings with 4788 characters,
+and the built_in function-call counts, 1725 in all, are:
+= -- 96
 > -- 127
 < -- 0
 + -- 45
 - -- 37
-* -- 99
-:= -- 287
+* -- 100
+:= -- 288
 add.period$ -- 24
 call.type$ -- 8
 change.case$ -- 8
 chr.to.int$ -- 0
-cite$ -- 9
-duplicate$ -- 95
-empty$ -- 199
+cite$ -- 8
+duplicate$ -- 96
+empty$ -- 201
 format.name$ -- 37
-if$ -- 384
+if$ -- 387
 int.to.chr$ -- 0
 int.to.str$ -- 8
 missing$ -- 8
 newline$ -- 43
 num.names$ -- 8
-pop$ -- 57
+pop$ -- 56
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
 skip$ -- 24
 stack$ -- 0
 substring$ -- 0
-swap$ -- 15
+swap$ -- 16
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
+warning$ -- 0
 while$ -- 8
 width$ -- 9
-write$ -- 81
-(There was 1 warning)
+write$ -- 82
