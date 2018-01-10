@@ -2,8 +2,8 @@
 
 \bibitem{adaldo2018ecc}
 Adaldo, Dimarogonas, and Johansson.
-\newblock Cloud-supported effective coverage of 3d structures.
-\newblock In {\em Submitted to the 2018 European Control Conference (ECC)}.
+\newblock Cloud-supported effective coverage of 3{D} structures.
+\newblock Submitted to the 2018 European Control Conference (ECC).
 
 \bibitem{boccia2017ieeecdc}
 Boccia, Adaldo, Dimarogonas, di~Bernardo, and Johansson.
@@ -13,7 +13,7 @@ Boccia, Adaldo, Dimarogonas, di~Bernardo, and Johansson.
 
 \bibitem{adaldo2017iros}
 Adaldo, Mansouri, Kanellakis, Dimarogonas, Johansson, and Nikolakopoulos.
-\newblock Cooperative coverage for surveillance of 3d structures.
+\newblock Cooperative coverage for surveillance of 3{D} structures.
 \newblock In {\em IEEE/JRS International Symposium on Intelligent Robots and
   Systems (IROS)}, 2017.
 
@@ -25,24 +25,24 @@ Wei, Zhang, Adaldo, and Johansson.
 
 \bibitem{adaldo2017ifac}
 Adaldo, Dimarogonas, and Johansson.
-\newblock {Hybrid coverage and inspection control for anisotropic mobile sensor
-  teams}.
+\newblock Hybrid coverage and inspection control for anisotropic mobile sensor
+  teams.
 \newblock In {\em IFAC World Congress}, 2017.
 
 \bibitem{adaldo2016ieeecdc}
 Adaldo, Alderisio, Liuzza, Dimarogonas, di~Bernardo, and Johansson.
-\newblock {Multi-Agent Trajectory Tracking with Event-Triggered Cloud Access}.
+\newblock Multi-agent trajectory tracking with event-triggered cloud access.
 \newblock In {\em IEEE Conference on Decision and Control (CDC)}, 2016.
 
 \bibitem{adaldo2015ecc}
 Adaldo, Liuzza, Dimarogonas, and Johansson.
-\newblock {Control of Multi-Agent Systems with Event-Triggered Cloud Access}.
+\newblock Control of multi-agent systems with event-triggered cloud access.
 \newblock In {\em European Control Conference (ECC)}, 2015.
 
 \bibitem{adaldo2014ieeecdc}
 Adaldo, Alderisio, Liuzza, Dimarogonas, di~Bernardo, and Johansson.
-\newblock {Event-Triggered Pinning Control of Complex Networks with Switching
-  Topologies}.
+\newblock Event-triggered pinning control of complex networks with switching
+  topologies.
 \newblock In {\em IEEE Conference on Decision and Control (CDC)}, 2014.
 
 \end{thebibliography}
