@@ -14,9 +14,11 @@
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
+
 % character encoding
 \usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
 
 % adjust the page margins
 \usepackage[top=2cm,scale=0.75,bottom=2.5cm]{geometry}
@@ -31,6 +33,7 @@
 \newcites{thesis}{Theses}
 \newcites{subjournal}{Submitted Journal Papers}
 \newcites{subconference}{Submitted Conference Papers}
+
 
 \newcommand{\kalle}{\href{http://people.kth.se/~kallej}{Karl H. Johansson}}
 \newcommand{\dimos}{\href{http://people.kth.se/~dimos}{Dimos V. Dimarogonas}}
@@ -72,12 +75,10 @@
 
 \begin{document}
 
-\nocitejournal{adaldo2015ieeecones}
-\nociteconference{wei2017ieeeicca,adaldo2017ifac,adaldo2016ieeecdc,adaldo2015ecc,adaldo2014ieeecdc}
+\nocitejournal{adaldo2017ieeecones,wei2017ieeetac,adaldo2015ieeecones}
+\nociteconference{adaldo2018ecc,boccia2017ieeecdc,adaldo2017iros,wei2017ieeeicca,adaldo2017ifac,adaldo2016ieeecdc,adaldo2015ecc,adaldo2014ieeecdc}
 \nocitebook{adaldo2017alesund}
 \nocitethesis{adaldo2016licentiate}
-\nocitesubjournal{wei2017ieeetac,adaldo2017ieeecones}
-\nocitesubconference{boccia2017ieeecdc,adaldo2017iros}
 
 %\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
 %-----       resume       ---------------------------------------------------------
@@ -85,21 +86,21 @@
 
 
 \section{Current Employment}
-\cvitem{PhD Student in Automatic Control, KTH}{2014/2--2018/8}
+\cvitem{PhD Student in Automatic Control, KTH}{Feb 2014 to May 2018}
 \cvitem{Supervisors}{
 \kalle, \dimos}
 \cvitem{Research topic}{Hybrid control of multi-agent systems}
 \cvitem{Research Projects Involvement}{Horizon 2020 AEROWORKS, KTH Smart Mobility Lab, KTH Cluster for Underwater Technology, SSF COLMAN}
 
 \section{Education}
-\cvitem{MSc}{Automation Engineering, University of Naples, Dec 2013, with Honors}
-\cvitem{BSc}{Automation Engineering, University of Naples, Sep 2011, with Honors}
+\cvitem{MSc}{Automation Engineering, University of Naples, Dec 2013, 110/110 with Honors}
+\cvitem{BSc}{Automation Engineering, University of Naples, Sep 2011, 110/110 with Honors}
 
 \section{Teaching Experience}
-\cvitem{T.A.}{\emph{Hybrid and Embedded Control Systems}, KTH, 2017, with \dimos}
+\cvitem{T.A.}{\emph{Hybrid and Embedded Control Systems}, KTH, 2017--2018, with \dimos}
 \cvitem{T.A.}{\emph{Automatic Control, Project Course} KTH, 2016, with \jonas}
 \cvitem{T.A.}{\emph{Automatic Control, General Course}, KTH, 2015--2016, with \henrik}
-\cvitem{Supervisor}{Seven MSc Thesis and one undergraduate summer project to date.}
+\cvitem{Supervisor}{Six MSc Thesis supervised to date.}
 
 % \section{Publications}
 % I have authored one journal paper, four conference papers, and one book chapter to date.
@@ -151,17 +152,17 @@
 % \cvdoubleitem{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
 
 \section{Skillset}
-\cvitem{Theoretical expertise}{Hybrid systems, multi-agent systems, aerial robotics}
+\cvitem{Theoretical expertise}{Hybrid systems, multi-agent systems, robotics}
 \cvitem{Working tools}{Python, ROS, Matlab/Simulink\textregistered, TeX, git}
-\cvitem{Side tools}{HTML, CSS, Javascript, C/C++, Mathematica\textregistered, Julialang}
+\cvitem{Side tools}{HTML, CSS, C/C++}
+\cvitem{Languages}{Italian (fluent), English (fluent), Swedish (working knowledge)}
 
 % \section{Free Time}
 % Swimming, Bridge, Keyboard
 
 \section{References}
-Up to three reference letters available upon request.\\
-A (small) part of my ROS projects are available through my \emph{Github} page \url{\adaldogithub}.\\
-My papers are reachable through my webpage \url{\adaldoweb}.
+Reference letters can be provided upon request.\\
+My publications are reachable through my webpage \url{\adaldoweb}.
 
 % \section{Extra 1}
 % \cvlistitem{Item 1}
@@ -190,22 +191,22 @@ My papers are reachable through my webpage \url{\adaldoweb}.
 
 \section{Publications}
 
-\bibliographystylejournal{plain}
+\bibliographystylejournal{unsrt}
 \bibliographyjournal{adaldo}
 
-\bibliographystylesubjournal{plain}
-\bibliographysubjournal{adaldo}
+% \bibliographystylesubjournal{plain}
+% \bibliographysubjournal{adaldo}
 
-\bibliographystyleconference{plain}
+\bibliographystyleconference{unsrt}
 \bibliographyconference{adaldo}
 
-\bibliographystylesubconference{plain}
-\bibliographysubconference{adaldo}
+% \bibliographystylesubconference{plain}
+% \bibliographysubconference{adaldo}
 
-\bibliographystylebook{plain}
+\bibliographystylebook{unsrt}
 \bibliographybook{adaldo}
 
-\bibliographystylethesis{plain}
+\bibliographystylethesis{unsrt}
 \bibliographythesis{adaldo}
 
 

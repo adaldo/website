@@ -1,46 +1,48 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: conference.aux
-The style file: plain.bst
+The style file: unsrt.bst
 Database file #1: adaldo.bib
-You've used 5 entries,
-            2118 wiz_defined-function locations,
-            518 strings with 4791 characters,
-and the built_in function-call counts, 1783 in all, are:
-= -- 141
-> -- 130
+Warning--empty year in adaldo2018ecc
+You've used 8 entries,
+            1791 wiz_defined-function locations,
+            476 strings with 4822 characters,
+and the built_in function-call counts, 1726 in all, are:
+= -- 95
+> -- 127
 < -- 0
-+ -- 51
-- -- 46
-* -- 124
-:= -- 312
-add.period$ -- 15
-call.type$ -- 5
-change.case$ -- 38
++ -- 45
+- -- 37
+* -- 102
+:= -- 287
+add.period$ -- 24
+call.type$ -- 8
+change.case$ -- 8
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 70
-empty$ -- 141
-format.name$ -- 46
-if$ -- 361
+cite$ -- 9
+duplicate$ -- 96
+empty$ -- 201
+format.name$ -- 37
+if$ -- 386
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 5
-newline$ -- 28
-num.names$ -- 10
-pop$ -- 58
+int.to.str$ -- 8
+missing$ -- 8
+newline$ -- 43
+num.names$ -- 8
+pop$ -- 57
 preamble$ -- 1
-purify$ -- 33
+purify$ -- 0
 quote$ -- 0
-skip$ -- 35
+skip$ -- 24
 stack$ -- 0
-substring$ -- 25
-swap$ -- 10
+substring$ -- 0
+swap$ -- 16
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 20
-warning$ -- 0
-while$ -- 10
-width$ -- 6
-write$ -- 52
+type$ -- 0
+warning$ -- 1
+while$ -- 8
+width$ -- 9
+write$ -- 81
+(There was 1 warning)
