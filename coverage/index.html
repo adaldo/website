@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Coverage simulation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+
+    <h1>Coverage</h1>
+    <p>This is a simple coverage simulation.</p>
+    <p><a href="https://doi.org/10.1016/j.ifacol.2017.08.098">This simulation is based on the paper that I presented at IFAC WC 2017.</a></p>
+    <ul class="mdc-list">
+      <li>Look at how the sensors navigate the environment and exchange landmarks.</li>
+      <li>Note how the total penalty decreases monotonically.</li>
+      <li>Drag a sensor to change its position.</li>
+      <li>Drag the tip of a sensor to change its orientation.</li>
+      <li>Click on a sensor to make it disappear.</li>
+      <li>Other functionalities with the panels on the right.</li>
+    </ul>
+
+    <div class="row">
+      <div class="column">
+        <canvas></canvas>
+      </div>
+      <div class="column">
+        <button class="w3-button" id="addSensor">Add a sensor</button>
+        <p>Total penalty</p>
+        <textarea id="totalPenalty" rows="1" cols="50"></textarea>
+        <p>Focus</p>
+        <input type="range" class="slider" id="focus"></input>
+        <p>Front penaly</p>
+        <input type="range" class="slider" id="front"></input>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="vector.js"></script>
+    <script type="text/javascript" src="globals.js"></script>
+    <script type="text/javascript" src="landmark.js"></script>
+    <script type="text/javascript" src="sensor.js"></script>
+    <script type="text/javascript" src="interactivity.js"></script>
+    <script type="text/javascript" src="animation.js"></script>
+
+  </body>
+
+</html>
